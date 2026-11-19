@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>STAGECRAFT — เวที แสง สี เสียง และจอ LED</title>
+    <meta name="description" content="STAGECRAFT ทีมโปรดักชันเวที แสง สี เสียง และจอ LED สำหรับคอนเสิร์ต งานองค์กร นิทรรศการ และงานเลี้ยง" />
+    <link rel="icon" href="img/logo/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&family=Prompt:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preload" as="image" href="img/photos/dusk.webp" />
+    <script type="importmap">
+      { "imports": { "three": "./js/vendor/three.module.min.js" } }
+    </script>
+  </head>
+  <body data-page="home">
+    <div data-header></div>
+
+    <div class="loader" aria-hidden="true">
+      <div class="loader-inner">
+        <span class="logo">STAGECRAFT</span>
+        <div class="loader-bar"><i></i></div>
+      </div>
+    </div>
+
+    <main class="xp" data-side="left">
+      <canvas aria-hidden="true"></canvas>
+      <div class="xp-fallback" aria-hidden="true"></div>
+      <div class="xp-shade"></div>
+
+      <div class="panels">
+        <section class="panel" data-side="left" aria-labelledby="s0">
+          <div class="wrap">
+            <div class="panel-body">
+              <span class="no">Live production · Bangkok</span>
+              <h1 class="display" id="s0">We build the moment.</h1>
+              <p class="lead one-line">เวที แสง เสียง และจอ LED ครบในทีมเดียว</p>
+              <div class="actions"><a class="btn" href="contact.html">ขอใบเสนอราคา <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a><button class="btn btn-ghost" type="button" data-next>เดินชมงาน</button></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" data-side="left" aria-labelledby="s1">
+          <div class="wrap">
+            <div class="panel-body">
+              <span class="no">01 · Stage &amp; truss</span>
+              <h2 class="h2" id="s1">Built to hold the show.</h2>
+              <p class="lead one-line">เวทีและโครงทรัส คำนวณทุกจุดแขวนก่อนขึ้นงาน</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" data-side="left" aria-labelledby="s2">
+          <div class="wrap">
+            <div class="panel-body">
+              <span class="no">02 · Lighting</span>
+              <h2 class="h2" id="s2">Light that moves people.</h2>
+              <p class="lead one-line">มูฟวิ่งเฮดกว่า 120 ตัว พร้อมนักออกแบบแสงคุมทุกคิว</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" data-side="left" aria-labelledby="s3">
+          <div class="wrap">
+            <div class="panel-body">
+              <span class="no">03 · Sound</span>
+              <h2 class="h2" id="s3">Every seat hears it.</h2>
+              <p class="lead one-line">ไลน์อาเรย์จูนตามพื้นที่ ตั้งแต่ 50 ถึง 20,000 คน</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" data-side="left" aria-labelledby="s4">
+          <div class="wrap">
+            <div class="panel-body">
+              <span class="no">04 · LED screen</span>
+              <h2 class="h2" id="s4">Screens that tell the story.</h2>
+              <p class="lead one-line">จอ LED ต่อขนาดได้ตามเวที พร้อมทีมสลับกล้องสด</p>
+              <div class="actions"><a class="btn btn-ghost" href="works.html">ดูผลงาน <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" data-side="left" aria-labelledby="s5">
+          <div class="wrap">
+            <div class="panel-body">
+              <span class="no">05 · Crew</span>
+              <h2 class="h2" id="s5">A crew on every cable.</h2>
+              <p class="lead one-line">ทีมงานประจำ 45 คน ดูแลมาแล้วกว่า 600 งาน</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" data-side="left" aria-labelledby="s6">
+          <div class="wrap">
+            <div class="panel-body">
+              <span class="no">Next on stage</span>
+              <h2 class="h2" id="s6">Your event is next.</h2>
+              <p class="lead one-line">ส่งรายละเอียดงาน รับแบบเวทีพร้อมราคาภายใน 3 วัน</p>
+              <div class="actions"><a class="btn" href="contact.html">ขอใบเสนอราคา <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a><a class="btn btn-ghost" href="works.html">ผลงาน</a><a class="btn btn-ghost" href="services.html">บริการ</a></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <nav class="rail" aria-label="ฉาก"></nav>
+
+      <div class="xp-foot">
+        <div class="wrap">
+          <span class="counter"><b>01</b> / <span>07</span></span>
+          <span class="hint"><span>เลื่อนหรือกด ↓ เพื่อเปลี่ยนฉาก</span><i aria-hidden="true"></i></span>
+        </div>
+      </div>
+      <div class="progress"></div>
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

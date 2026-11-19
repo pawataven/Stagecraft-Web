@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ขอใบเสนอราคา — STAGECRAFT</title>
+    <meta name="description" content="ขอใบเสนอราคาเวที แสง สี เสียง และจอ LED จาก STAGECRAFT" />
+    <link rel="icon" href="img/logo/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&family=Prompt:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="contact">
+    <div data-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="wrap">
+          <span class="eyebrow reveal">Get a quote</span>
+          <h1 class="display reveal">Tell us the date.</h1>
+          <p class="lead one-line reveal">กรอกเท่าที่รู้ก็พอ ทีมงานโทรกลับภายใน 1 วันทำการ</p>
+        </div>
+      </section>
+      <section class="section" style="padding-top: 0">
+        <div class="wrap contact-grid">
+          <form class="form reveal" data-quote novalidate>
+            <label class="field"><span>ชื่อผู้ติดต่อ</span><input name="name" autocomplete="name" /></label>
+            <label class="field"><span>เบอร์โทร</span><input name="tel" type="tel" autocomplete="tel" /></label>
+            <label class="field"><span>วันงาน</span><input name="date" type="date" /></label>
+            <label class="field"><span>ประเภทงาน</span>
+              <select name="type"><option>คอนเสิร์ต / เฟสติวัล</option><option>สัมมนา / งานองค์กร</option><option>บูธ / นิทรรศการ</option><option>งานเลี้ยง / กาล่า</option><option>อื่น ๆ</option></select>
+            </label>
+            <label class="field"><span>สถานที่</span><input name="venue" placeholder="เช่น ฮอลล์ในห้าง ลานกลางแจ้ง" /></label>
+            <label class="field"><span>จำนวนแขกโดยประมาณ</span>
+              <select name="guests"><option>ไม่เกิน 200 คน</option><option>200 – 1,000 คน</option><option>1,000 – 5,000 คน</option><option>มากกว่า 5,000 คน</option></select>
+            </label>
+            <fieldset class="field full" style="border: 0; padding: 0; margin: 0">
+              <span>ต้องการอะไรบ้าง</span>
+              <div class="checks"><label><input type="checkbox" name="svc" value="stage" /><span>เวที / ทรัส</span></label><label><input type="checkbox" name="svc" value="light" /><span>แสง</span></label><label><input type="checkbox" name="svc" value="sound" /><span>เสียง</span></label><label><input type="checkbox" name="svc" value="led" /><span>จอ LED</span></label><label><input type="checkbox" name="svc" value="booth" /><span>บูธ</span></label><label><input type="checkbox" name="svc" value="full" /><span>จัดทั้งงาน</span></label></div>
+            </fieldset>
+            <label class="field full"><span>รายละเอียดเพิ่มเติม</span><textarea name="note" placeholder="ลำดับพิธี ศิลปิน ขนาดพื้นที่ หรือภาพตัวอย่างที่ชอบ"></textarea></label>
+            <button class="btn" type="submit">ส่งคำขอใบเสนอราคา <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></button>
+            <p class="form-done" tabindex="-1" role="status">ได้รับคำขอแล้ว ทีมงานจะติดต่อกลับภายใน 1 วันทำการ (เว็บตัวอย่าง ยังไม่ส่งข้อมูลจริง)</p>
+          </form>
+          <div class="info reveal">
+            <div class="info-row"><span>โทร</span><b>02 000 0000</b></div>
+            <div class="info-row"><span>LINE</span><b>@stagecraft</b></div>
+            <div class="info-row"><span>อีเมล</span><b>hello@stagecraft.example</b></div>
+            <div class="info-row"><span>เวลาทำการ</span><b>ทุกวัน 09:00 – 20:00</b></div>
+            <div class="info-row"><span>พื้นที่รับงาน</span><b>กรุงเทพฯ ปริมณฑล และทั่วประเทศ</b></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div data-footer></div>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ผลงาน — STAGECRAFT</title>
+    <meta name="description" content="รายละเอียดผลงาน ภาพทุกมุม อุปกรณ์ที่ใช้ และงบประมาณ" />
+    <link rel="icon" href="img/logo/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&family=Prompt:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="work">
+    <div data-header></div>
+    <main>
+      <section class="work-page">
+        <div class="wrap" data-work></div>
+      </section>
+      <section class="section" style="padding-top: 0">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div><span class="eyebrow">More shows</span><h2 class="h2">Similar works.</h2></div>
+            <a class="btn btn-ghost" href="works.html">ผลงานทั้งหมด</a>
+          </div>
+          <div class="works works-3" data-similar></div>
+        </div>
+      </section>
+      <div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="ภาพผลงาน">
+        <button class="lb-btn lb-close" type="button" aria-label="ปิด"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg></button>
+        <button class="lb-btn lb-prev" type="button" aria-label="ภาพก่อนหน้า"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg></button>
+        <button class="lb-btn lb-next" type="button" aria-label="ภาพถัดไป"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6" /></svg></button>
+        <figure><img src="" alt="" /><figcaption></figcaption></figure>
+      </div>
+    </main>
+    <div data-footer></div>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
